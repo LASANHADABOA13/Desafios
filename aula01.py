@@ -1,5 +1,3 @@
-#Fazer uma funçao que faz a tabuada do 1 ate 10 do 9
-
 def mostrarNumero():
     print("escreva um numero maior ou igual a 100:")
     numero_valido = False
