@@ -11,4 +11,4 @@ while i == False:
         else:
             print("ano invalido")
     except Exception as erro:
-        print("um ou mais dados estao invalidos", erro)
+        print("um ou mais dados estao invalidos, erro: ", erro)
