@@ -1,17 +1,35 @@
-:root{
-    --cor: #f1f4;
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(227, 254, 255);
 }
 
-.main{
-    /* background-color: var(--cor); */
-    text-align: center;
+#header{
+    padding: 0px 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-li{
+
+#header nav ul{
+    display: flex;
+    justify-content: space-between;
     list-style: none;
-    padding: 20px;
+}
+
+#header nav ul a{
+    font-size: larger;
+    padding: 5px;
+    color: white;
+    text-decoration:none ;
 }
 
 .article{
-    font: normal 16px Arial, Verdana, serif;
-    text-align: justify;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
 }
